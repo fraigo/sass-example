@@ -1,5 +1,5 @@
 
-@use 'variables';
+@import "_variables";
 
 body {
   font: 100% $font-stack;
@@ -7,22 +7,11 @@ body {
   background-color: $bgcolor;
 }
 
-.header {
-    ul {
-        li {
-            display: inline-block;
-            border: 1px solid $secondary-color;
-            padding: 4px;
-        }
-    }
-    a {
-        text-transform: uppercase;
-        text-decoration: dotted;
-    }
-}
+
 
 a:link {
     color: $secondary-color;
     text-decoration: none;
 }
 
+@import "header.scss";

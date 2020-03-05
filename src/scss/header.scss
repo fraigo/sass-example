@@ -1,0 +1,15 @@
+/* header.scss */
+
+.header {
+    ul {
+        li {
+            display: inline-block;
+            border: 1px solid $secondary-color;
+            padding: 4px;
+        }
+    }
+    a {
+        text-transform: uppercase;
+        text-decoration: dotted;
+    }
+}
