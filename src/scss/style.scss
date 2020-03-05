@@ -1,8 +1,5 @@
 
-$font-stack: Arial, Helvetica, sans-serif;
-$primary-color: #800;
-$secondary-color: #C60;
-$bgcolor: #fdd;
+@use 'variables';
 
 body {
   font: 100% $font-stack;
