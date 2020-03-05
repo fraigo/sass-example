@@ -1,0 +1,34 @@
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+  }
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fullscreen{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    @include flex-center();
+}
+
+  body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: $bgcolor;
+  }
+
+
+a:link {
+    color: $secondary-color;
+    text-decoration: none;
+}
